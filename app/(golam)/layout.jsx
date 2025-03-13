@@ -4,11 +4,9 @@ import { Instagram } from "lucide-react";
 import { X } from "lucide-react";
 import { Youtube } from "lucide-react";
 // import { FaWhatsapp } from "react-icons/fa";
-import { Roboto } from "next/font/google";
-const roboto = Roboto({
-  weight: ["200", "100", "300", "400"],
-  subsets: ["latin"],
-});
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
+
 const navlinks = [
   {
     title: "Home",
@@ -51,7 +49,7 @@ const socials = [
 ];
 export default function GolamLayout({ children }) {
   return (
-    <div className={`w-screen h-screen flex flex-col ${roboto.className}`}>
+    <div className={`w-screen h-screen flex flex-col ${inter.className}`}>
       <MainNav items={navlinks} socials={socials} />
       {children}
     </div>
