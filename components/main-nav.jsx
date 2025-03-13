@@ -10,10 +10,12 @@ import MobileMenu from "./mobile-menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function MainNav({ items, socials, children }) {
+export default function MainNav({ items, socials }) {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
-    <header className="w-full sticky top-0 flex bg-[#f9ba35] backdrop-blur-sm justify-center items-center py-2 top:0 left:0 ">
+    <header
+      className={`${inter.className} w-full sticky top-0 flex bg-[#f9ba35] backdrop-blur-sm justify-center items-center py-2 top:0 left:0`}
+    >
       <div className="w-4/5 max-h-10  flex flex-row gap-4 justify-between items-center">
         <Link className="bg-[#41adcb] p-0.5 rounded-sm text-white" href="/">
           <Image src={logo} width={60} height={60} alt="logo" />
@@ -22,11 +24,7 @@ export default function MainNav({ items, socials, children }) {
           {items ? (
             <nav className="flex flex-row justify-center items-center gap-2">
               {items.map((item, index) => (
-                <Link
-                  className={`text-lg ${inter.className}`}
-                  key={index}
-                  href={item.href}
-                >
+                <Link className={`text-lg`} key={index} href={item.href}>
                   {item.title}
                 </Link>
               ))}
