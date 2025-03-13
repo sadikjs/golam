@@ -6,7 +6,11 @@ export default function MobileMenu({ items, socials }) {
       {items ? (
         <nav className="flex flex-col justify-center items-center gap-2">
           {items.map((item, index) => (
-            <Link className="text-lg text-black" key={index} href={item.href}>
+            <Link
+              className="text-lg text-[#41adcb]"
+              key={index}
+              href={item.href}
+            >
               {item.title}
             </Link>
           ))}
