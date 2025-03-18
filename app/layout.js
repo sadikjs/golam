@@ -1,4 +1,5 @@
 import "./globals.css";
+import style from "@/styles/wave.module.css";
 import { Geist, Geist_Mono } from "next/font/google";
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +19,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} w-screen h-screen flex justify-center items-center`}
+      >
         {children}
       </body>
     </html>
