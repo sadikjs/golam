@@ -14,7 +14,7 @@ export default function MainNav({ items, socials }) {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <header
-      className={`${inter.className} w-full sticky top-0 flex bg-[#f9ba35] backdrop-blur-sm justify-center items-center py-2 top:0 left:0`}
+      className={`${inter.className} w-full sticky top-0 z-40 flex bg-[#f9ba35] backdrop-blur-sm justify-center items-center py-2 top:0 left:0`}
     >
       <div className="w-4/5 max-h-10  flex flex-row gap-4 justify-between items-center">
         <Link className="bg-[#41adcb] p-0.5 rounded-sm text-white" href="/">
