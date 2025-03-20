@@ -1,5 +1,5 @@
 "use client";
-import logo from "@/public/assets/whitelogo.png";
+import logo from "@/public/assets/wave/logo.png";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,7 +18,7 @@ export default function MainNav({ items, socials }) {
     >
       <div className="w-4/5 max-h-10  flex flex-row gap-4 justify-between items-center">
         <Link className="bg-[#41adcb] p-0.5 rounded-sm text-white" href="/">
-          <Image src={logo} width={60} height={60} alt="logo" />
+          <Image src={logo} width={80} height={80} alt="logo" />
         </Link>
         <div className="w-full hidden lg:flex lg: flex-row lg:justify-between ">
           {items ? (

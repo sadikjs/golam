@@ -8,7 +8,7 @@ export default function HomePage() {
       <Link
         href="/profile"
         style={{ textShadow: "1px 1px 2px #000000" }}
-        className={`${inter.className} text-white  text-xl lg:text-4xl`}
+        className={`${inter.className} text-white  text-3xl lg:text-7xl`}
       >
         WE SERVE
       </Link>
