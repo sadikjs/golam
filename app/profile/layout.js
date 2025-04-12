@@ -37,7 +37,7 @@ const socials = [
 ];
 export default function ProfileLayout({ children }) {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="w-screen min-h-screen flex flex-col justify-center items-center">
       <MainNav socials={socials} items={items} />
       {children}
     </div>

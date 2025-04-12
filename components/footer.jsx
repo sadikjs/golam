@@ -3,7 +3,7 @@ import { MapIcon } from "lucide-react";
 import { Phone } from "lucide-react";
 export default function Footer() {
   return (
-    <div className="w-full bg-[#f9ba35] flex justify-center items-center py-6">
+    <div className="w-full bg-[#f9ba35] flex z-40 justify-center items-center py-10">
       <div className="w-4/5 grid justify-between items-end gap-y-7 lg:gap-x-2 lg:grid-cols-2">
         <div className="flex flex-col justify-start items-start">
           <div className="flex flex-row items-center gap-2 py-2">

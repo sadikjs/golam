@@ -2,6 +2,8 @@ import MainNav from "@/components/main-nav";
 import { Facebook } from "lucide-react";
 import { Linkedin } from "lucide-react";
 import { X } from "lucide-react";
+import Footer from "@/components/footer";
+import Sidebar from "./_components/side-bar";
 
 const items = [
   {
@@ -37,11 +39,15 @@ const socials = [
   },
 ];
 
-export default function HuminitiesLayout({ children }) {
+export default function HuminitiesLayout({ lifesketch }) {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="w-full flex flex-col justify-start items-start">
+      <Sidebar />
       <MainNav socials={socials} items={items} />
-      {children}
+      <div className="w-full flex flex-col justify-center items-center pl-20">
+        {lifesketch}
+      </div>
+      <Footer />
     </div>
   );
 }

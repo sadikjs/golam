@@ -17,7 +17,7 @@ export default function MainNav({ items, socials }) {
       className={`${inter.className} w-full flex bg-[#f9ba35] backdrop-blur-sm justify-center items-center py-2`}
     >
       <div className="w-4/5 max-h-10  flex flex-row gap-4 justify-between items-center">
-        <Link className="bg-[#0070cd] p-0.5 rounded-sm text-white" href="/">
+        <Link className="bg-white p-0.5 rounded-sm text-white" href="/">
           <Image src={logo} width={80} height={80} alt="logo" />
         </Link>
         <div className="w-full hidden lg:flex lg:flex-row lg:justify-between ">
