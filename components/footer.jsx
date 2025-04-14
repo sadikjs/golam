@@ -8,19 +8,28 @@ export default function Footer() {
         <div className="flex flex-col justify-start items-start">
           <div className="flex flex-row items-center gap-2 py-2">
             <Phone className="text-[#c13343]" />
-            <p className="">+88 01777 - 098767</p>
+            <p className="">Cell: +8801713035399, Res: +88-02-9136775,</p>
           </div>
           <div className="flex flex-row items-center gap-2 py-2">
             <MailboxIcon className="text-[#c13343]" />
-            <p className="">info@golamfaruk.org</p>
+            <p className="">Email: golam.faruk@yahoo.com</p>
           </div>
           <div className="flex flex-row items-center gap-2 py-2">
             <MapIcon className="text-[#c13343]" />
-            <p className="">57/3, 57/4, panthapath, Dhaka-1205</p>
+            <p className="">
+              Address: F. Haque Tower, Level-10, 107, Bir Uttam CR Datta Road,
+              Kawranbazar, Dhaka-1205.{" "}
+            </p>
+          </div>
+          <div className="flex flex-row items-center gap-2 py-2">
+            <MapIcon className="text-[#c13343]" />
+            <p className="">
+              FARUK & ASSOCIATES, Consultant, Tax & Company Affairs
+            </p>
           </div>
         </div>
         <div className="flex flex-row justify-between items-end gap-x-2 ">
-          <div className="flex flex-col justify-start items-end gap-y-1">
+          <div className="flex flex-col justify-start items-end gap-y-6">
             <div className="">
               <p className="border-b border-[#c13343]">Home</p>
             </div>
@@ -34,7 +43,7 @@ export default function Footer() {
               <p className="border-b border-[#c13343]">Contact</p>
             </div>
           </div>
-          <div className="flex flex-col justify-start items-end gap-y-1">
+          <div className="flex flex-col justify-start items-end gap-y-6">
             <div className="">
               <p className="border-b border-[#c13343]">Join Page</p>
             </div>
