@@ -1,5 +1,6 @@
 import { MailboxIcon } from "lucide-react";
 import { MapIcon } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { Phone } from "lucide-react";
 export default function Footer() {
   return (
@@ -15,7 +16,7 @@ export default function Footer() {
             <p className="">Email: golam.faruk@yahoo.com</p>
           </div>
           <div className="flex flex-row items-center gap-2 py-2">
-            <MapIcon className="text-[#c13343]" />
+            <MapPin className="text-[#c13343] w-12" />
             <p className="">
               Address: F. Haque Tower, Level-10, 107, Bir Uttam CR Datta Road,
               Kawranbazar, Dhaka-1205.{" "}
