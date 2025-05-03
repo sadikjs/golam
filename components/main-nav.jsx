@@ -10,7 +10,7 @@ import MobileMenu from "./mobile-menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function MainNav({ items, socials }) {
+export default function MainNav({ items, socials, secondLogo }) {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <header

@@ -60,10 +60,10 @@ export default function Bio() {
             style={{ fontFamily: "verdana, sans-serif" }}
             className={`${style.animation} bg-gradient-to-r from-amber-300 to-yellow-500 px-3 py-1`}
           >
-            Humanitatian
+            Humanitarian
           </Link>
           <Link
-            href="/huminitie"
+            href="/professional"
             style={{ fontFamily: "verdana, sans-serif" }}
             className={`${style.animation} bg-gradient-to-r from-amber-300 to-yellow-500 px-3 py-1`}
           >
