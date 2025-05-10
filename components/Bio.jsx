@@ -21,20 +21,26 @@ export default function Bio() {
         <div className="flex flex-col justify-center items-center gap-y-1 pb-4">
           <h1
             style={{ fontFamily: "Times New Roman, serif" }}
-            className="w-full text-xl text-center "
+            className="w-full text-sm lg:text-xl text-center "
           >
             A K M GOLAM FARUK
           </h1>
           <h1
             style={{ fontFamily: "Times New Roman, serif" }}
-            className="text-xl text-center"
+            className="text-sm lg:text-xl text-center"
           >
             DISTRICT GOVERNOR <span className="text-xs">(2025-2026)</span>
           </h1>
-          <p className="" style={{ fontFamily: "Times New Roman, serif" }}>
+          <p
+            className="text-xs lg:text-sm"
+            style={{ fontFamily: "Times New Roman, serif" }}
+          >
             District 315 A1, Bangladesh
           </p>
-          <p className="" style={{ fontFamily: "Times New Roman, serif" }}>
+          <p
+            className="text-xs lg:text-sm"
+            style={{ fontFamily: "Times New Roman, serif" }}
+          >
             Lions Internationals
           </p>
         </div>

@@ -63,7 +63,7 @@ export default function Main() {
         <div className="w-2/3 flex flex-col justify-start gap-y-2">
           <h1
             style={{ fontFamily: "Times New Roman, serif" }}
-            className="text-[#024685] font-semibold text-lg lg:font-bold lg:text-xl "
+            className="text-[#024685] font-semibold text-lg lg:font-bold lg:text-xl"
           >
             Founder & Owner, Faruk & Associates
           </h1>

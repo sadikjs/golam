@@ -4,12 +4,18 @@ import thirteen from "@/public/assets/photos/13.jpeg";
 
 export default function ThirteenParallel() {
   return (
-    <div className="w-40 h-40 flex justify-center items-center rounded-md bg-[#093dac] p-4">
+    <div className="w-32 lg:w-40 w-32 lg:h-40  flex justify-center items-center rounded-md bg-[#093dac] p-4">
       <Link
         className="text-white text-center underline "
         href="/archived/thirteen"
       >
-        <Image src={thirteen} width={160} height={160} alt="thirteen photos" />
+        <Image
+          src={thirteen}
+          width={160}
+          height={160}
+          alt="thirteen photos"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
         <p>2013-2014</p>
       </Link>
     </div>
