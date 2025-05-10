@@ -4,7 +4,7 @@ import picThree from "@/public/assets/family/3.jpeg";
 import Image from "next/image";
 export default function Family() {
   return (
-    <div className="w-full flex justify-center items-center p-12">
+    <div className="w-full flex justify-center items-center p-1 lg:p-12">
       <div
         style={{ fontFamily: "arial, sans-serif" }}
         className="w-4/5 grid lg:grid-cols-2 gap-4 leading-6"

@@ -43,7 +43,7 @@ export default function Sidebar() {
             style={{ fontFamily: "Times New Roman, serif" }}
             className="text-sm text-[#102e57] ml-4 font-medium lg:font-bold lg:text-[15px] hover:border-b-2 hover:border-[#102e57]"
           >
-            <Link href="/huminitie/service">Service (Club)</Link>
+            <Link href="/huminitie/service">Service Club</Link>
           </span>
         </div>
         <div className="my-4 bg-gray-600 h-[1px] opacity-30"></div>
@@ -52,7 +52,7 @@ export default function Sidebar() {
             style={{ fontFamily: "Times New Roman, serif" }}
             className="text-sm font-medium text-[#102e57] ml-4 lg:font-bold lg:text-[15px] hover:border-b-2 hover:border-[#102e57]"
           >
-            <Link href="/huminitie/family">Personal (Family)</Link>
+            <Link href="/huminitie/family">Family</Link>
           </span>
         </div>
         <div className="my-4 bg-gray-600 h-[1px] opacity-30"></div>

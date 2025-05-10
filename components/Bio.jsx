@@ -8,7 +8,7 @@ const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 //c13343
 export default function Bio() {
   return (
-    <div className="w-full flex flex-col lg:flex-row justify-around items-center bg-gradient-to-r from-[#f4f4f4] via-[#f1f5fa] to-[#f8f8f8] gap-x-4">
+    <div className="w-full flex flex-col lg:flex-row justify-around items-center bg-gradient-to-r from-[#f4f4f4] via-[#f1f5fa] to-[#f8f8f8] gap-y-8 lg:gap-x-4">
       <div className="w-1/2 flex flex-col justify-end items-center gap-x-4 ">
         <Image
           className="pb-4"
