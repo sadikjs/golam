@@ -9,9 +9,10 @@ export default function Family() {
         style={{ fontFamily: "arial, sans-serif" }}
         className="w-4/5 grid lg:grid-cols-2 gap-4 leading-6"
       >
-        <div className="w-full flex justify-center items-center gap-x-2 pb-6">
+        <div className="w-full flex justify-center items-center gap-x-4 pb-6">
           <picture className="w-1/2">
             <Image
+              className="rounded-md"
               src={picOne}
               width="250"
               height="250"
@@ -26,16 +27,25 @@ export default function Family() {
             >
               Family
             </h1>
-            <p>
+            <p
+              style={{ fontFamily: "Arial, sans-serif" }}
+              className="text-xs lg:text-sm leading-6 text-justify"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               voluptate consequuntur asperiores, ad, repellat voluptatem illo
               facilis id porro aut quis assumenda.
             </p>
           </div>
         </div>
-        <div className="w-full flex justify-center items-center gap-x-2 pb-6">
+        <div className="w-full flex justify-center items-center gap-x-4 pb-6">
           <picture className="w-1/2">
-            <Image src={picTwo} width="250" height="250" alt="family picture" />
+            <Image
+              className="rounded-md"
+              src={picTwo}
+              width="250"
+              height="250"
+              alt="family picture"
+            />
           </picture>
           <div className="w-1/2">
             <h1
@@ -44,14 +54,17 @@ export default function Family() {
             >
               Family
             </h1>
-            <p>
+            <p
+              style={{ fontFamily: "Arial, sans-serif" }}
+              className="text-xs lg:text-sm leading-6 text-justify"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               voluptate consequuntur asperiores, ad, repellat voluptatem illo
               facilis id porro aut quis assumenda.
             </p>
           </div>
         </div>
-        <div className="w-full flex justify-center items-center gap-x-2">
+        <div className="w-full flex justify-center items-center gap-x-4">
           <div className="w-1/2">
             <h1
               style={{ fontFamily: "Times New Roman, serif" }}
@@ -59,7 +72,10 @@ export default function Family() {
             >
               Family
             </h1>
-            <p>
+            <p
+              style={{ fontFamily: "Arial, sans-serif" }}
+              className="text-xs lg:text-sm leading-6 text-justify"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               voluptate consequuntur asperiores, ad, repellat voluptatem illo
               facilis id porro aut quis assumenda.
@@ -67,6 +83,7 @@ export default function Family() {
           </div>
           <picture className="w-1/2">
             <Image
+              className="rounded-md"
               src={picThree}
               width="250"
               height="250"
@@ -74,7 +91,7 @@ export default function Family() {
             />
           </picture>
         </div>
-        <div className="w-full flex justify-center items-center gap-x-2">
+        <div className="w-full flex justify-center items-center gap-x-4">
           <div className="w-1/2 ">
             <h1
               style={{ fontFamily: "Times New Roman, serif" }}
@@ -82,14 +99,23 @@ export default function Family() {
             >
               Family
             </h1>
-            <p>
+            <p
+              style={{ fontFamily: "Arial, sans-serif" }}
+              className="text-xs lg:text-sm leading-6 text-justify"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               voluptate consequuntur asperiores, ad, repellat voluptatem illo
               facilis id porro aut quis assumenda.
             </p>
           </div>
           <picture className="w-1/2">
-            <Image src={picOne} width="250" height="250" alt="family picture" />
+            <Image
+              className="rounded-md"
+              src={picOne}
+              width="250"
+              height="250"
+              alt="family picture"
+            />
           </picture>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function MainNav({ items, socials, secondLogo }) {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <header
-      className={`${inter.className} w-full flex bg-[#f9ba35] backdrop-blur-sm justify-center items-center py-2`}
+      className={`${inter.className} w-full flex bg-[#102e57] backdrop-blur-sm justify-center items-center py-2`}
     >
       <div className="w-4/5 max-h-10  flex flex-row gap-4 justify-between items-center">
         <Link className="bg-white p-0.5 rounded-sm text-white" href="/">
@@ -24,7 +24,7 @@ export default function MainNav({ items, socials, secondLogo }) {
           {items ? (
             <nav
               style={{ fontFamily: "times new roman, serif" }}
-              className="flex flex-row  text-lg justify-center items-center gap-2"
+              className="flex flex-row text-lg justify-center items-center gap-2 text-white"
             >
               {items.map((item, index) => (
                 <Link key={index} href={item.href}>
@@ -54,7 +54,11 @@ export default function MainNav({ items, socials, secondLogo }) {
           className="flex items-center lg:hidden"
           onClick={() => setShowMobileMenu(!showMobileMenu)}
         >
-          {showMobileMenu ? <X /> : <Menu />}
+          {showMobileMenu ? (
+            <X className="text-white" />
+          ) : (
+            <Menu className="text-white" />
+          )}
         </button>
       </div>
     </header>

@@ -14,7 +14,7 @@ import tewelve from "@/public/assets/photos/13.jpeg";
 import thirdty from "@/public/assets/photos/14.jpeg";
 export default function Ten() {
   return (
-    <div className="w-full grid grid-cols-4 gap-y-4 gap-x-4 p-4">
+    <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-4 p-4">
       <Image
         src={one}
         width="200"

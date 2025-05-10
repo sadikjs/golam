@@ -1,7 +1,7 @@
 export default function Message() {
   return (
     <div className="w-full flex justify-center items-center ">
-      <div className="w-3/5 flex justify-center items-center py-4">
+      <div className="w-3/5 flex justify-center items-center py-12">
         <form
           style={{ fontFamily: "arial, sans-serif" }}
           className="w-full flex flex-col justify-start items-start gap-y-2"
@@ -42,8 +42,13 @@ export default function Message() {
             placeholder="Write something.."
             style={{ height: "200px" }}
           ></textarea>
-
-          <input type="submit" value="Submit" />
+          <div className="flex justify-center items-center">
+            <input
+              className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-2 cursor-pointer hover:text-white"
+              type="submit"
+              value="Submit"
+            />
+          </div>
         </form>
       </div>
     </div>

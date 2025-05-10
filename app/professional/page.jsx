@@ -40,7 +40,7 @@ const socials = [
 ];
 export default function ProfessionalPage() {
   return (
-    <div className="w-full flex flex-col justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div className="w-full flex flex-col justify-center items-center bg-gradient-to-r from-sky-500 via-indigo-500  to-blue-600">
       <MainNav socials={socials} items={items} secondLogo={secondLogo} />
       <Professional />
       <Footer />
