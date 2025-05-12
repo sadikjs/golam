@@ -1,104 +1,189 @@
 import Image from "next/image";
-import fourty from "@/public/assets/photos/15-2.png";
-import fivty from "@/public/assets/photos/16-2.png";
-import sixty from "@/public/assets/photos/17.jpeg";
-import seventy from "@/public/assets/photos/18.jpeg";
-import eighty from "@/public/assets/photos/19.jpeg";
-import ninety from "@/public/assets/photos/20.jpeg";
-import twenty from "@/public/assets/photos/21.jpeg";
-import twentyTwo from "@/public/assets/photos/22.jpeg";
-import twentyThree from "@/public/assets/photos/23-2.jpeg";
-import twoentyFour from "@/public/assets/photos/24.jpeg";
-import TwoentryFive from "@/public/assets/photos/25-2.jpeg";
-import TwoentrySix from "@/public/assets/photos/26.jpeg";
+import one from "@/public/assets/photos/11/1.jpeg";
+import two from "@/public/assets/photos/11/2.jpeg";
+import three from "@/public/assets/photos/11/3.jpeg";
+import four from "@/public/assets/photos/11/4.jpeg";
+import five from "@/public/assets/photos/11/5.jpeg";
+import six from "@/public/assets/photos/11/6.jpeg";
+import seven from "@/public/assets/photos/11/7.jpeg";
+import eight from "@/public/assets/photos/11/8.jpeg";
+import nine from "@/public/assets/photos/11/9.jpeg";
+import ten from "@/public/assets/photos/11/10.jpeg";
+import eleven from "@/public/assets/photos/11/11.jpeg";
+import twelve from "@/public/assets/photos/11/12.jpeg";
+import thirty from "@/public/assets/photos/11/13.jpeg";
+import fourty from "@/public/assets/photos/11/14.jpeg";
 export default function Eleven() {
   return (
     <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-4 p-4">
-      <Image
-        src={seventy}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={fivty}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={sixty}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={fourty}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={eighty}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={ninety}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-
-      <Image
-        src={twenty}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={twentyTwo}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={twoentyFour}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={twentyThree}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={TwoentryFive}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
-      <Image
-        src={TwoentrySix}
-        width="200"
-        height="auto"
-        alt="one image"
-        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-      />
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={one}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={two}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={three}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={four}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={five}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={six}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={seven}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={eight}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={nine}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={ten}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={eleven}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={twelve}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={thirty}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
+      <div className="w-[140px] lg:w-[200px] h-[140px] lg:h-[200px] border border-[#ccc] flex items-center justify-center">
+        <Image
+          src={fourty}
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+          alt="one image"
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+        />
+      </div>
     </div>
   );
 }

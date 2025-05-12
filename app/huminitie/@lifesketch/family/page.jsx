@@ -7,7 +7,7 @@ export default function Family() {
     <div className="w-full flex justify-center items-center p-1 lg:p-12">
       <div
         style={{ fontFamily: "arial, sans-serif" }}
-        className="w-4/5 grid lg:grid-cols-2 gap-4 leading-6"
+        className="w-4/5 grid lg:grid-cols-2 gap-4 leading-6 pl-8 lg:pl-0"
       >
         <div className="w-full flex justify-center items-center gap-x-4 pb-6">
           <picture className="w-1/2">

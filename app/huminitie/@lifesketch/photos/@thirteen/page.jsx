@@ -4,7 +4,7 @@ import thirteen from "@/public/assets/photos/13.jpeg";
 
 export default function ThirteenParallel() {
   return (
-    <div className="w-32 lg:w-40 w-32 lg:h-40  flex justify-center items-center rounded-md bg-[#093dac] p-4">
+    <div className="w-28 lg:w-40 w-28 lg:h-40  flex justify-center items-center rounded-md bg-[#093dac] p-4">
       <Link
         className="text-white text-center underline "
         href="/archived/thirteen"

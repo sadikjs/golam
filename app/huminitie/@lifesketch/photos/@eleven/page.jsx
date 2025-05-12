@@ -3,7 +3,7 @@ import Image from "next/image";
 import eleven from "@/public/assets/photos/10.jpeg";
 export default function ElevenParallel() {
   return (
-    <div className="w-32 lg:w-40 w-32 lg:h-40 flex justify-center items-center rounded-md bg-[#0867d2] p-4">
+    <div className="w-28 lg:w-40 w-28 lg:h-40 flex justify-center items-center rounded-md bg-[#0867d2] p-4">
       <Link className="text-center " href="/archived/eleven">
         <Image
           className="pb-4"
