@@ -15,7 +15,7 @@ export default function FourteenParallel() {
           alt="fourteen photos"
           sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
         />
-        <p>2014-2015</p>
+        <p>2014</p>
       </Link>
     </div>
   );

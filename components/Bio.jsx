@@ -63,7 +63,7 @@ export default function Bio() {
       </div>
       <picture
         style={{ boxShadow: "-2px 0px 2px #dddddd" }}
-        className="w-1/2 flex justify-start items-center bg-gradient-to-r from-cyan-500 via-indigo-500 to-blue-700"
+        className="w-full lg:w-1/2 flex justify-start items-center bg-gradient-to-r from-cyan-500 via-indigo-500 to-blue-700"
       >
         <Image
           src={photos}

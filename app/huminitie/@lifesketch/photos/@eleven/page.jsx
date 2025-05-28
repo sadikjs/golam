@@ -13,7 +13,7 @@ export default function ElevenParallel() {
           sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
           alt="photos gallery"
         />
-        <p className="text-white">2011-202</p>
+        <p className="text-white">2011</p>
       </Link>
     </div>
   );

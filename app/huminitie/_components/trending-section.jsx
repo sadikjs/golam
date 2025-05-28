@@ -22,14 +22,12 @@ export default function Trending() {
             />
             <div className="flex justify-start text-center">
               <p className="flex justify-start gap-x-2">
-                <p>
-                  <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
-                    posted-
-                  </span>{" "}
-                  <span className="text-[#454545] text-[8px] lg:text-sm">
-                    15 April 2024
-                  </span>
-                </p>
+                <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
+                  posted-
+                </span>{" "}
+                <span className="text-[#454545] text-[8px] lg:text-sm">
+                  15 April 2024
+                </span>
                 <p>
                   <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                     by-

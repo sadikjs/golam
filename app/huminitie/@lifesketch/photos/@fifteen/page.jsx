@@ -1,5 +1,5 @@
 import Link from "next/link";
-import fifteen from "@/public/assets/photos/18.jpeg";
+import fifteen from "@/public/assets/photos/family/6.jpg";
 import Image from "next/image";
 export default function FifteenParallel() {
   return (
@@ -15,7 +15,7 @@ export default function FifteenParallel() {
           alt="fifteen photos"
           sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
         />
-        <p>2014-2015</p>
+        <p>2015</p>
       </Link>
     </div>
   );

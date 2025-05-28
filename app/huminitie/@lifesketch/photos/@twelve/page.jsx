@@ -13,7 +13,7 @@ export default function TwelveParallel() {
           alt="twelve photos"
           sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
         />
-        <p>2012-2013</p>
+        <p>2012</p>
       </Link>
     </div>
   );

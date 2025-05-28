@@ -1,6 +1,6 @@
-import picOne from "@/public/assets/family/1.jpeg";
-import picTwo from "@/public/assets/family/2.jpeg";
-import picThree from "@/public/assets/family/3.jpeg";
+import picOne from "@/public/assets/photos/16.jpg";
+import picTwo from "@/public/assets/photos/17.jpg";
+import picThree from "@/public/assets/photos/18.jpg";
 import Image from "next/image";
 export default function Family() {
   return (
