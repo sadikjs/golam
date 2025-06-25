@@ -13,8 +13,8 @@ export default function Career() {
         <h1 className="text-[#024685] text-xl font-semibold lg:font-bold lg:text-3xl p-4">
           Career Summary
         </h1>
-        <div className="flex flex-col justify-center items-center gap-y-4 lg:flex-row lg:gap-x-4">
-          <picture className="w-1/3 flex flex-row justify-end items-end py-2">
+        <div className="flex flex-col justify-center items-center gap-y-4 lg:flex-row lg:gap-x-4 p-4">
+          <picture className="w-2/3 lg:w-1/3 flex flex-row justify-end items-end py-2">
             <Image
               className="shadow-sm"
               src={TrendingImage}
@@ -24,7 +24,7 @@ export default function Career() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </picture>
-          <div className="w-2/3 flex flex-col justify-center items-center gap-y-2 lg:justify-start lg:items-start">
+          <div className="w-full lg:w-2/3 flex flex-col justify-center items-center gap-y-2 lg:justify-start lg:items-start">
             <p className="flex justify-start gap-x-1">Club Secretary</p>
             <h1
               style={{ fontFamily: "Times New Roman, serif" }}
@@ -44,8 +44,8 @@ export default function Career() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-y-4 lg:flex-row lg:gap-x-4">
-          <picture className="w-1/3 flex flex-row justify-end items-end py-2">
+        <div className="flex flex-col justify-center items-center gap-y-4 lg:flex-row lg:gap-x-4 p-4">
+          <picture className="w-2/3 lg:w-1/3 flex flex-row justify-end items-end py-2">
             <Image
               className="border border-slate-200 p-1 shadow-sm"
               src={TrendingTwo}
@@ -55,7 +55,7 @@ export default function Career() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </picture>
-          <div className="w-2/3 flex flex-col justify-center items-center gap-y-2 lg:justify-start lg:items-start">
+          <div className="w-full lg:w-2/3 flex flex-col justify-center items-center gap-y-2 lg:justify-start lg:items-start">
             <p className="flex justify-start gap-x-1">Club Secretary</p>
             <h1
               style={{ fontFamily: "Times New Roman, serif" }}
@@ -75,8 +75,8 @@ export default function Career() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-y-4 lg:flex-row lg:gap-x-4">
-          <picture className="w-1/3 flex flex-row justify-end items-end py-2">
+        <div className="flex flex-col justify-center items-center gap-y-4 lg:flex-row lg:gap-x-4 p-4">
+          <picture className="w-2/3 lg:w-1/3 flex flex-row justify-end items-end py-2">
             <Image
               className="border border-slate-200 p-1 shadow-sm"
               src={TrendingThree}
@@ -86,7 +86,7 @@ export default function Career() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </picture>
-          <div className="w-2/3 flex flex-col justify-center items-center gap-y-2 lg:justify-start lg:items-start">
+          <div className="w-full lg:w-2/3 flex flex-col justify-center items-center gap-y-2 lg:justify-start lg:items-start">
             <p className="flex justify-start gap-x-1">Club Secretary</p>
             <h1
               style={{ fontFamily: "Times New Roman, serif" }}
@@ -106,11 +106,11 @@ export default function Career() {
             </Link>
           </div>
         </div>
-        <div className="w-2/4 flex justify-center items-center bg-[#024685] p-1.5 rounded-sm">
+        <div className="w-2/4 flex justify-center items-center border border-slate-600 p-1.5 ">
           <button
             type="submit"
             style={{ fontFamily: "arial, sans-serif" }}
-            className="text-white text-center m-auto"
+            className="text-center m-auto"
           >
             View All Post
           </button>

@@ -23,8 +23,8 @@ export default function MainNav({ items, socials, secondLogo }) {
         <div className="w-full hidden lg:flex lg:flex-row lg:justify-between ">
           {items ? (
             <nav
-              style={{ fontFamily: "times new roman, serif" }}
-              className="flex flex-row text-lg justify-center items-center gap-2 text-white"
+              style={{ fontFamily: "arial, sans-serif" }}
+              className="flex flex-row text-lg justify-center items-center gap-2 text-slate-300"
             >
               {items.map((item, index) => (
                 <Link key={index} href={item.href}>
@@ -37,7 +37,7 @@ export default function MainNav({ items, socials, secondLogo }) {
             <nav className="flex flex-row justify-between items-center gap-2">
               {socials.map((social, index) => (
                 <Link
-                  className="bg-[#0070cd] rounded-sm p-0.5 text-white text-2xl"
+                  className="bg-[#f1b432] rounded-sm p-0.5 text-2xl"
                   key={index}
                   href={social.href}
                 >

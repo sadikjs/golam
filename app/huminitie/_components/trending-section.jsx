@@ -21,27 +21,27 @@ export default function Trending() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="flex justify-start text-center">
-              <p className="flex justify-start gap-x-2">
+              <div className="flex justify-start gap-x-2">
                 <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                   posted-
                 </span>{" "}
                 <span className="text-[#454545] text-[8px] lg:text-sm">
                   15 April 2024
                 </span>
-                <p>
+                <div>
                   <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                     by-
                   </span>
                   <span className="text-[#454545] text-[8px] lg:text-sm">
                     Doland Due
                   </span>
-                </p>
-              </p>
+                </div>
+              </div>
             </div>
           </picture>
           <div className="flex flex-col justify-start gap-y-4">
             <h1
-              style={{ fontFamily: "Times New Roman, serif" }}
+              style={{ fontFamily: "Times New Roman, serif,", color: "white" }}
               className="text-[#024685] text-sm font-normal lg:font-bold lg:text-lg pt-4"
             >
               Founder & Owner, Faruk & Associates (1997 - Present) Faruk &
@@ -49,7 +49,7 @@ export default function Trending() {
             </h1>
             <Link href="/">
               <p
-                style={{ fontFamily: "arial, sans-serif" }}
+                style={{ fontFamily: "arial, sans-serif", color: "white" }}
                 className="leading-5 lg:leading-7 text-xs lg:text-sm text-[#454545]"
               >
                 is an income-tax and Company Law consultancy firm. The firm
@@ -74,36 +74,36 @@ export default function Trending() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="flex justify-start text-center">
-              <p className="flex justify-start gap-x-2">
-                <p>
+              <div className="flex justify-start gap-x-2">
+                <div>
                   <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                     posted-
                   </span>{" "}
                   <span className="text-[#454545] text-[8px] lg:text-sm">
                     15 April 2024
                   </span>
-                </p>
-                <p>
+                </div>
+                <div>
                   <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                     by-
                   </span>
                   <span className="text-[#454545] text-[8px] lg:text-sm">
                     Doland Due
                   </span>
-                </p>
-              </p>
+                </div>
+              </div>
             </div>
           </picture>
           <div className="flex flex-col justify-start gap-y-4">
             <h1
-              style={{ fontFamily: "Times New Roman, serif" }}
+              style={{ fontFamily: "Times New Roman, serif", color: "white" }}
               className="text-[#024685] text-sm lg:font-bold lg:text-lg pt-4"
             >
               Founder & Owner, Faruk & Associates (1997 - Present)
             </h1>
             <Link href="/">
               <p
-                style={{ fontFamily: "arial, sans-serif" }}
+                style={{ fontFamily: "arial, sans-serif", color: "white" }}
                 className="leading-5 lg:leading-7 text-xs lg:text-sm text-[#454545]"
               >
                 is an income-tax and Company Law consultancy firm. The firm
@@ -128,36 +128,36 @@ export default function Trending() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="flex justify-start text-center">
-              <p className="flex justify-start gap-x-2">
-                <p>
+              <div className="flex justify-start gap-x-2">
+                <div>
                   <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                     posted-
                   </span>{" "}
                   <span className="text-[#454545] text-[8px] lg:text-sm">
                     15 April 2024
                   </span>
-                </p>
-                <p>
+                </div>
+                <div>
                   <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                     by-
                   </span>
                   <span className="text-[#454545] text-[8px] lg:text-sm">
                     Doland Due
                   </span>
-                </p>
-              </p>
+                </div>
+              </div>
             </div>
           </picture>
           <div className="flex flex-col justify-start gap-y-4">
             <h1
-              style={{ fontFamily: "Times New Roman, serif" }}
+              style={{ fontFamily: "Times New Roman, serif", color: "white" }}
               className="text-[#024685] text-sm lg:font-bold lg:text-lg pt-4"
             >
               Founder & Owner, Faruk & Associates (1997 - Present)
             </h1>
             <Link href="/">
               <p
-                style={{ fontFamily: "arial, sans-serif" }}
+                style={{ fontFamily: "arial, sans-serif", color: "white" }}
                 className="leading-5 lg:leading-7 text-xs lg:text-sm text-[#454545]"
               >
                 is an income-tax and Company Law consultancy firm. The firm
@@ -182,36 +182,36 @@ export default function Trending() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="flex justify-start text-center">
-              <p className="flex justify-start gap-x-2">
-                <p>
+              <div className="flex justify-start gap-x-2">
+                <div>
                   <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                     posted-
                   </span>{" "}
                   <span className="text-[#454545] text-[8px] lg:text-sm">
                     15 April 2024
                   </span>
-                </p>
-                <p>
+                </div>
+                <div>
                   <span className="text-[#727272] text-[8px] lg:text-sm opacity-60">
                     by-
                   </span>
                   <span className="text-[#454545] text-[8px] lg:text-sm">
                     Doland Due
                   </span>
-                </p>
-              </p>
+                </div>
+              </div>
             </div>
           </picture>
           <div className="flex flex-col justify-start gap-y-4">
             <h1
-              style={{ fontFamily: "Times New Roman, serif" }}
+              style={{ fontFamily: "Times New Roman, serif", color: "white" }}
               className="text-[#024685] text-sm lg:font-bold lg:text-lg pt-4"
             >
               Founder & Owner, Faruk & Associates (1997 - Present)
             </h1>
             <Link href="/">
               <p
-                style={{ fontFamily: "arial, sans-serif" }}
+                style={{ fontFamily: "arial, sans-serif", color: "white" }}
                 className="leading-5 lg:leading-7 text-xs lg:text-sm text-[#454545]"
               >
                 is an income-tax and Company Law consultancy firm. The firm
