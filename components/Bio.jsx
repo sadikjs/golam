@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Roboto } from "next/font/google";
-import photos from "@/public/assets/photos/main_golam.png";
+import photos from "@/public/assets/photos/huminitine.jpeg";
 import Link from "next/link";
 import style from "@/styles/hero-section.module.css";
 import logo from "@/public/assets/wave/logo.png";
@@ -66,9 +66,10 @@ export default function Bio() {
         className="w-full lg:w-1/2 flex justify-start items-center bg-gradient-to-r from-cyan-500 via-indigo-500 to-blue-700"
       >
         <Image
+        className=""
           src={photos}
           alt="profile picture"
-          width="100%"
+          width="50%"
           height="auto"
           sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33px"
         />

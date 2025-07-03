@@ -7,10 +7,10 @@ import TrendingFourt from "@/public/assets/service/26.jpeg";
 export default function Trending() {
   return (
     <div className="flex flex-col justify-start py-8">
-      <h1 className="text-[#024685] text-center text-sm font-normal lg:font-bold lg:text-3xl p-4">
+      <h1 className="font-bold text-2xl text-[#024685] border-b-2 border-[#fac236]">
         Service Club
       </h1>
-      <div className="grid lg:grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-2 gap-4 pt-8">
         <div className="flex flex-col justify-center items-center gap-y-2 pb-10  pl-6 lg:pl-0">
           <picture>
             <Image
